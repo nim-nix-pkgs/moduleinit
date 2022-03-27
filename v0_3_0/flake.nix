@@ -11,6 +11,7 @@
   inputs.src-moduleinit-v0_3_0.ref   = "refs/tags/v0.3.0";
   inputs.src-moduleinit-v0_3_0.owner = "skunkiferous";
   inputs.src-moduleinit-v0_3_0.repo  = "moduleinit";
+  inputs.src-moduleinit-v0_3_0.dir   = "";
   inputs.src-moduleinit-v0_3_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

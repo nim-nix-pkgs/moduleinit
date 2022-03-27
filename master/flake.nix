@@ -11,6 +11,7 @@
   inputs.src-moduleinit-master.ref   = "refs/heads/master";
   inputs.src-moduleinit-master.owner = "skunkiferous";
   inputs.src-moduleinit-master.repo  = "moduleinit";
+  inputs.src-moduleinit-master.dir   = "";
   inputs.src-moduleinit-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
