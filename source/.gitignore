@@ -1,0 +1,4 @@
+.vscode
+nimcache
+bin
+*.exe
